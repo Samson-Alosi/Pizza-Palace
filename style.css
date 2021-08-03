@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(155, 177, 185);
+    background-color: rgb(144, 173, 184);
 }
 
 /* navbar_section */
@@ -71,8 +71,9 @@ body {
     line-height: 45px;
     /* background: url(./assets/pizza7.png) no-repeat; */
     color: rgb(49, 47, 47);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
+    
 }
 
 /* menu */
