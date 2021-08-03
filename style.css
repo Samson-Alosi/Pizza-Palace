@@ -79,8 +79,11 @@ body {
 }
 
 
-
-
+/* page footer */
+.page-footer {
+    font-size: 30px;
+    width: 100%;
+}
 
 
 
@@ -91,6 +94,8 @@ body {
     font-size: 20px;
     font-family: fantasy;
     font-style: italic;
+    margin-top: 60px
+    ;
 }
 
 /* scroll button */
