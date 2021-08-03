@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-sm-4 text-center">
                 <div class="picture">
-                    <img src="./assets/normal1.png" class="img-thumbnail"  alt="normal-pizza" style="width: 260px; height: 260px;">
+                    <img src="./assets/normal1.png" class="img-thumbnail"  alt="normal-pizza" style="width: 260px; height: 260px; border-radius: 30px;">
                    
                     <div class="txt">
                         <h4>Normal</h4>
@@ -103,7 +103,7 @@
             </div>
             <div class="col-sm-4 text-center">
                 <div class="picture">
-                    <img src="./assets/medium1.png" class="img-thumbnail"  alt="medium-pizza" style="width: 260px; height: 260px;">
+                    <img src="./assets/medium1.png" class="img-thumbnail"  alt="medium-pizza" style="width: 260px; height: 260px; border-radius: 30px;">
                     <div class="txt">
                         <h4>Medium</h4>
                          <p>Ksh 800</p>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-sm-4 text-center">
                 <div class="picture">
-                    <img src="./assets/large1.png" class="img-thumbnail"  alt="large-pizza" style="width: 260px; height: 260px;">
+                    <img src="./assets/large1.png" class="img-thumbnail"  alt="large-pizza" style="width: 260px; height: 260px; border-radius: 30px;">
                     <div class="txt">
                         <h4>Large</h4>
                         <p>Ksh 1400</p>
@@ -123,7 +123,72 @@
         </div>
     </div>
 
+    <!-- -----------------------------order -------------------------------------------->
+
+        <div class="container mt-lg-4" id="order" name="order_Section">
+        <h3 class="text-center h3-makeOrder">Place an Order</h3>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <form action="#" id="orders" class="text-center">
+                    <div class="form-group">
+                        <label for="size">Select Pizza Size</label>
+                        <select class="form-control" name="size" required>
+                            <option value="normal-pizza">Normal</option>
+                            <option value="medium-pizza">Medium</option>
+                            <option value="large-pizza">Large</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Select Crust; </label>
+                        <select class="form-control" name="crust">
+                            <option value="Cheese-Stuffed @ Ksh 100" data-item-price="100">Cheese-Stuffed @ Ksh 100</option>
+                            <option value="Thin Crust @ Ksh 115" data-item-price="115">Thin Crust @ Ksh 115</option>
+                            <option value="Neapolitan @ Ksh 125" data-item-price="125">Neapolitan @ Ksh 125</option>
+                            <option value="Chicago Deep Dish @ Ksh 135" data-item-price="135">Chicago Deep Dish @ Ksh 135</option>
+                    
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Select Toppings;</label>
+                        <select class="form-control" name="toppings" required>
+                            <option value="Sausage @ Ksh 60" data-item-price="60">Sausage @ Ksh 60</option>
+                            <option value="Spinach @ Ksh 50" data-item-price="50">Spinach @ Ksh 50</option>
+                            <option value="Bacon @ Ksh 70" data-item-price="70">Bacon @ Ksh 70</option>
+                            <option value="Extra Cheese @ Ksh 90" data-item-price="90">Extra Cheese @ Ksh 90</option>
+                            <option value="Black Olives @ Ksh 80" data-item-price="80" >Black Olives @ Ksh 80</option>
+                            <option value="Pepperoni @ Ksh 150" data-item-price="150">Pepperoni @ Ksh 150</option>
+                            <option value="Chicken @ Ksh 250" data-item-price="250">Chicken @ Ksh 170</option>
+                            <option value="Beef @ Ksh 180" data-item-price="180">Beef @ Ksh 180</option>
+                        </select>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label> <nav>Number of Pizza Needed;</nav></label>
+                        <input type="number" name="quantity" class="form-control" placeholder="Number of pizza" min="1" required>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-lg-2">
+                        <!-- <a href="#order_Summary"> -->
+                            <button type="submit" name="submitOrder" class="btn btn-primary" id="proceed">Proceed</button>
+                        <!-- </a> -->
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+       <!-- footer -->
+    <footer>
+    <div class="footer-copyright text-center py-3">
+    <p>&copy; Copyright<a href="#">Samalosi.com</a></p>
+    <p>Designed by Samson Alosi</p>
+    <p>@2021</p>
+  </div>
+    </footer>
+
 </div>
+<!-- -------------------------scroll button--------------------- -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     
 </body>

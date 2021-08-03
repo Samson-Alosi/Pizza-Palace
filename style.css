@@ -47,7 +47,7 @@ body {
   background: url("./assets/Four-Seasons-Hotel-George-V-Paris.png") no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px 80px;
+  padding: 150px 80px;
   width: 100%;
   height: 100%;
   margin-top: -0.2em;
@@ -56,14 +56,60 @@ body {
   color:#fff;
   font-size: 22px;
   font-weight: bold;
-  padding: 0px 50px 0px 50px;
+  padding: 30px 50px 0px 50px;
 }
 /* about */
 .about-us {
-  padding: 40px 10px;
+  padding: 60px 10px;
   line-height: 30px;
   background: url(./assets/pizza7.png) no-repeat;
   color: #fff;
   font-weight: 600;
   font-size: 30px;
+}
+
+/* menu */
+#menu {
+    padding: 25px;
+}
+
+/* order */
+#orders {
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer-copyright {
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+/* scroll button */
+#myBtn {
+  display:block;
+  position: fixed;
+  bottom: 15px; 
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(53, 37, 37);
+  color: rgb(224, 189, 189);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 32px;
+  font-size: 12px;
+}
+
+#myBtn:hover {
+  background-color: rgb(8, 5, 21);
 }
