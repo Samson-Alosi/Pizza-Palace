@@ -61,16 +61,16 @@ body {
     color: #fff;
     font-size: 22px;
     font-weight: bold;
-    padding: 30px 50px 0px 50px;
+    padding: 35px 50px 0px 50px;
 }
 
 
 /* about */
 .about-us {
-    padding: 60px 10px;
-    line-height: 40px;
-    background: url(./assets/pizza7.png) no-repeat;
-    color: rgb(34, 32, 32);
+    padding: 50px 10px;
+    line-height: 45px;
+    /* background: url(./assets/pizza7.png) no-repeat; */
+    color: rgb(49, 47, 47);
     font-weight: 600;
     font-size: 30px;
 }
