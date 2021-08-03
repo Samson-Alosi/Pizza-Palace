@@ -1,4 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(86, 138, 97);
+}
+/* navbar_section */
+.nav_section .navbar-brand{ font-size: 35px;
+}
+
+.nav_section .navbar-brand span{
+    color: rgb(92, 17, 17);
+}
+
+.nav_section .navbar-nav li {
+    margin: 0px 15px;
+}
+
+.nav_section .navbar-nav li a {
+    color: #fff !important;
+    font-size: 30px;
+}
+
+.nav_section .navbar-nav .nav-link::before{
+    background-color: #fff;
+    position: absolute;
+    content: '';
+    height: 0px;
+    width: 0px;
+    transition: 0.3s;
+    bottom: 8px;
+}
+.nav_section .navbar-nav .nav-link:hover::before{
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 40px;
+    height: 2.5px;
 }
