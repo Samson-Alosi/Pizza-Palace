@@ -1,17 +1,17 @@
-# _Pizza Palace WEbsite
+# Pizza Palace Website
 
 
-#### _Pizza Place allows pizza lovers to order their favorite pizza
+#### Pizza Place allows pizza lovers to order their favorite pizza
 
-#### By _Samson Alosi
+#### By Samson Alosi
 
 ## Technologies Used
 
-* _HTML5
-* _CSS3
-* _Bootstrap 5
-* _Javascript
-* _JQuery
+HTML5
+CSS3
+Bootstrap 5
+Javascript
+JQuery
 
 ## Description
 This website application is made in a way that it enables users to order pizza, and either pick them up or wait to be delivered. It makes calculation regarding the amount to be charged per pizza.
@@ -21,7 +21,7 @@ The website structure is built on HTML 5, and styled using CSS3 and Bootstrap 5.
 
 
 ## Known Bugs
-* _No bugs detected.
+No bugs detected.
 
 ## License
 MIT License
