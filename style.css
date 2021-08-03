@@ -118,3 +118,18 @@ body {
 #myBtn:hover {
   background-color: rgb(8, 5, 21);
 }
+.pay {
+    display: none;
+}
+.response {
+    display: none;
+}
+.location {
+    display: none;
+}
+.checkout{
+    display: none;
+}
+.pickup{
+    display: none;
+}
